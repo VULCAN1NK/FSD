@@ -1,0 +1,335 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Tech News Page Styles */
+body.news {
+    background-color: #e3f2fd;
+}
+
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.news-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.news-card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: #3498db;
+}
+
+.news-card p {
+    padding: 0 10px;
+    color: #555;
+}
+
+.news-card a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Buying Guides Page Styles */
+.guides-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.guide-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33.333% - 40px);
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.guide-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.guide-card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.guide-card p {
+    padding: 0 10px;
+    color: #555;
+}
+
+.guide-card a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.guide-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .guide-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .guide-card {
+        width: calc(100% - 20px);
+    }
+}
+
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Card Styles */
+.pick-card, .howto-guide, .forum-post {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.pick-card img, .howto-guide img, .forum-post img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.pick-card:hover, .howto-guide:hover, .forum-post:hover {
+    transform: scale(1.05);
+}
+
+/* Review Cards */
+.reviews-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.review-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(33.333% - 40px);
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.review-card h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.review-card p {
+    padding: 0 10px;
+    color: #555;
+}
+
+.review-card a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .review-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .review-card {
+        width: calc(100% - 20px);
+    }
+}
+
+/* About Us Page Styles */
+body.about {
+    background-color: #e0f7fa;
+}
+
+.about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section h2 {
+    color: #00838f;
+}
+
+.about-section p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Centering team photos */
+.team-photo {
+    display: block; /* Makes the image a block element for easier centering */
+    margin: 10px auto; /* Centers the image horizontally */
+    border-radius: 50%;
+    border: 3px solid #00838f;
+    max-width: 150px; /* Adjust width as needed */
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    table {
+        width: 100%;
+    }
+}

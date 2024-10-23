@@ -1,0 +1,36 @@
+/* Comparison Page Styles */
+h2{
+    text-align: center;
+}
+
+
+
+.comparison-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.comparison-table th {
+    background-color:aquamarine;
+    color: white;
+}
+
+.comparison-table td {
+    background-color:aqua;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20rem;
+}

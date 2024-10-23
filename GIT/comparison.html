@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison - Gadget Tech Review</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="comparison.css">
+    <link rel="stylesheet" href="bg.css">
+</head>
+<body class="comparison">
+    <header>
+        <h1>Gadget Tech Review</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">Product Reviews</a></li>
+                <li><a href="news.html">Tech News</a></li>
+                <li><a href="guides.html">Buying Guides</a></li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="howto.html">How-To Guides</a></li>
+                <li><a href="toppicks.html">Top Picks</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Product Comparisons</h2>
+    <main>
+        <!-- Dropdown Example -->
+        <label for="comparison-category">Choose a category:</label>
+        <select id="comparison-category" name="category">
+            <option value="smartphones">Smartphones</option>
+            <option value="laptops">Laptops</option>
+            <option value="headphones">Headphones</option>
+            <option value="smartwatches">Smartwatches</option>
+        </select>
+
+        <!-- Checkbox Example -->
+        <h3>Features to Compare:</h3>
+        <label><input type="checkbox" name="feature" value="battery"> Battery Life</label>
+        <label><input type="checkbox" name="feature" value="camera"> Camera Quality</label>
+        <label><input type="checkbox" name="feature" value="performance"> Performance</label>
+
+        <!-- Radio Button Example -->
+        <h3>Preferred Price Range:</h3>
+        <label><input type="radio" name="price" value="under-500"> Under $500</label>
+        <label><input type="radio" name="price" value="500-1000"> $500 - $1000</label>
+        <label><input type="radio" name="price" value="above-1000"> Above $1000</label>
+        
+        <section class="comparison-section">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>iPhone 15</th>
+                        <th>Samsung Galaxy S24</th>
+                        <th>Google Pixel 8</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Display</td>
+                        <td>6.1-inch OLED</td>
+                        <td>6.5-inch AMOLED</td>
+                        <td>6.4-inch OLED</td>
+                    </tr>
+                    <tr>
+                        <td>Processor</td>
+                        <td>A17 Bionic</td>
+                        <td>Exynos 2400</td>
+                        <td>Tensor G3</td>
+                    </tr>
+                    <tr>
+                        <td>Camera</td>
+                        <td>12MP + 12MP</td>
+                        <td>50MP + 12MP</td>
+                        <td>50MP + 12MP</td>
+                    </tr>
+                    <tr>
+                        <td>Battery</td>
+                        <td>3,200mAh</td>
+                        <td>4,500mAh</td>
+                        <td>4,000mAh</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Gadget Tech Review. All rights reserved.
+    </footer>
+</body>
+</html>

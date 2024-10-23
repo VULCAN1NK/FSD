@@ -1,0 +1,53 @@
+body.home {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.news {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.reviews {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.guides {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.about {
+    background: url('/images/aboutbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.contact {
+    background: url('/images/contactbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.comparison {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.how {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.top {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.howto {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+body.forum {
+    background: url('/images/tech-review.avif') no-repeat center center fixed;
+    background-size: cover;
+}
