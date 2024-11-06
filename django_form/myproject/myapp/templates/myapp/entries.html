@@ -1,0 +1,17 @@
+<!-- myapp/templates/myapp/entries.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Entries</title>
+</head>
+<body>
+    <h2>All Entries</h2>
+    <ul>
+        {% for entry in entries %}
+            <li><strong>{{ entry.username }}</strong> - {{ entry.hobbies }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'submit_form' %}">Submit another entry</a>
+</body>
+</html>

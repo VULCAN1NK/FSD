@@ -1,0 +1,14 @@
+<!-- myapp/templates/myapp/thank_you.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank You</title>
+</head>
+<body>
+    <h2>Thank You!</h2>
+    <p>Your submission has been received.</p>
+    <a href="{% url 'submit_form' %}">Submit another entry</a> |
+    <a href="{% url 'view_entries' %}">View all entries</a>
+</body>
+</html>
